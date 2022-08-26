@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;
+    margin: 20px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      font-family: 'Outfit', sans-serif;
+    }
+    :root
+    {
+    --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+    }
+
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 80px;
+    }
+    .qrBox{
+      background-color: white;
+      box-shadow :0 4px 8px 0 var(--Lightgray), 0 6px 20px 0 var(--Lightgray);
+      border-radius: 15px;
+      width: 265px;
+    height: 410px;
+    }
+    img{
+      display: block;
+      margin: 15px auto;
+      width: 240px;
+      height: 230px;
+      border-radius: 15px;
+    }
+    p{
+      text-align: center;
+      margin: 0;
+    }
+    .head{
+      font-size: 18px;
+      font-weight: 700;
+      padding: 0 30px 15px;
+    }
+    .para{
+      font-size: 14px;
+      color: var(--Grayishblue);
+      padding: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="qrBox">
+      <img src="images/image-qr-code.png" alt="">
+      <p class="head">Improve your front-end skills by building projects</p>
+      <p class="para">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Md Amanullah</a>.
+  </div>
+
+</body>
+</html>
