@@ -4,6 +4,7 @@
 
 ## Welcome! 👋
 
+This is a challenge task by front-end coding challenge.
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
@@ -49,7 +50,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 
-### Screenshot
+### ScreenShot
 
 ![](./SS.png)
 
